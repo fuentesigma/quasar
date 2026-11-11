@@ -9,6 +9,8 @@
 
 Code for the paper "Quaia quasar redshifts depend on direction through the Milky Way" (J. Fuentes Aguilar, 2026). Every number and figure in the paper comes from these scripts.
 
+Archived on Zenodo, https://doi.org/10.5281/zenodo.24144793
+
 ## Data
 
 The catalogues are public and are not included here. Put them in a folder `data/` in this repository:
@@ -24,7 +26,7 @@ data/
   desi/QSO_SGC_clustering.dat.fits
 ```
 
-The Quaia catalogues, selection functions and template maps are from the Quaia release of Storey-Fisher et al. (2024) [link]. The DESI files are the DR1 quasar clustering catalogues [link].
+The Quaia catalogues, selection functions and template maps are from the Quaia release of Storey-Fisher et al. (2024), version 1.0.0, at https://doi.org/10.5281/zenodo.10403370. Unzip `selection_function_template_maps.zip` into `data/templates/`. The DESI files are the DR1 quasar clustering catalogues, version 1.5, at https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/v1.5/
 
 ## Running
 
